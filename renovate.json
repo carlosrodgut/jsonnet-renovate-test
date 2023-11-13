@@ -3,8 +3,10 @@
   "extends": [
     "config:recommended"
   ],
+  {
   "fileMatch": [
     "(^|/)jsonnetfile\\.json$"
   ],
   "datasource": "git-tags"
+  }
 }
